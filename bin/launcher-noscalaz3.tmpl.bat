@@ -2,7 +2,7 @@
 
 rem Absolute path of the script: https://stackoverflow.com/a/33372703
 pushd %~dp0
-set script_dir=%CD%
+set script_dir="%CD%"
 popd
 
 set PATH=%PATH%;%script_dir%\z3
